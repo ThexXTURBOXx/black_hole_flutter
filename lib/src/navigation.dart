@@ -28,7 +28,7 @@ extension FancyNavigatorState on NavigatorState {
 
 typedef MessageLogger = void Function(String message);
 
-/// A [NavigatorObserver] that loggs all navigation events to a [MessageLogger]
+/// A [NavigatorObserver] that logs all navigation events to a [MessageLogger]
 /// (defaults to [print]).
 class LoggingNavigatorObserver extends NavigatorObserver {
   LoggingNavigatorObserver({this.logger = defaultLogger});
